@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "description": "Command-line utility for akashic game development",
   "scripts": {
+    "postinstall": "npm run build",
     "build": "nx run-many -t build",
     "test": "npm run lint:md && nx run-many -t test && node test/e2e.js --local",
     "test:published": "node test/e2e.js",
