@@ -1,0 +1,418 @@
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-export/.npmrc 
+
+> @akashic/akashic-cli-export@1.9.2 test
+> npm run test:ts && npm run lint
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-export/.npmrc 
+
+> @akashic/akashic-cli-export@1.9.2 test:ts
+> npm run test:ts:compile && npm run test:ts:jest
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-export/.npmrc 
+
+> @akashic/akashic-cli-export@1.9.2 test:ts:compile
+> tsc -p ./spec
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-export/.npmrc 
+
+> @akashic/akashic-cli-export@1.9.2 test:ts:jest
+> jest
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/pdi/[22m[1mgameExternalStorageSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/html/[22m[1mapiUtilSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/zip/[22m[1mGameConfigurationUtilSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/zip/[22m[1mpackRectsSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/html/[22m[1mutilsSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/[22m[1mutilsSpec.js[22m
+  [1m● [22mConsole
+
+    [2m[33mconsole.warn[39m[22m
+[33m      No .ogg file found for assets/audio/se/audio2. This asset may not be played on some environments (e.g. Android)[39m
+[2m[22m
+[2m    [0m [90m 18 |[39m         })[33m;[39m[22m
+[2m     [90m 19 |[39m         [36mif[39m ([33m![39misOggExist_1)[22m
+[2m    [31m[1m>[22m[2m[39m[90m 20 |[39m             console[33m.[39mwarn([32m"No .ogg file found for "[39m[33m.[39mconcat(asset[33m.[39mpath[33m,[39m [32m". This asset may not be played on some environments (e.g. Android)"[39m))[33m;[39m[22m
+[2m     [90m    |[39m                     [31m[1m^[22m[2m[39m[22m
+[2m     [90m 21 |[39m         [36mif[39m ([33m![39misM4aOrAacExist_1)[22m
+[2m     [90m 22 |[39m             [90m// eslint-disable-next-line max-len[39m[22m
+[2m     [90m 23 |[39m             console[33m.[39mwarn([32m"Neither .m4a nor .aac file found for "[39m[33m.[39mconcat(asset[33m.[39mpath[33m,[39m [32m". This asset may not be played on some environments (e.g. iOS)"[39m))[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat Object.warnLackOfAudioFile ([22m[2mlib/utils.js[2m:20:21)[22m[2m[22m
+[2m      [2mat forEach ([22m[2m[0m[36mspec/build/utilsSpec.js[39m[0m[2m:58:80)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mspec/build/utilsSpec.js[39m[0m[2m:58:40)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      Neither .m4a nor .aac file found for assets/audio/se/audio3. This asset may not be played on some environments (e.g. iOS)[39m
+[2m[22m
+[2m    [0m [90m 21 |[39m         [36mif[39m ([33m![39misM4aOrAacExist_1)[22m
+[2m     [90m 22 |[39m             [90m// eslint-disable-next-line max-len[39m[22m
+[2m    [31m[1m>[22m[2m[39m[90m 23 |[39m             console[33m.[39mwarn([32m"Neither .m4a nor .aac file found for "[39m[33m.[39mconcat(asset[33m.[39mpath[33m,[39m [32m". This asset may not be played on some environments (e.g. iOS)"[39m))[33m;[39m[22m
+[2m     [90m    |[39m                     [31m[1m^[22m[2m[39m[22m
+[2m     [90m 24 |[39m     }[22m
+[2m     [90m 25 |[39m }[22m
+[2m     [90m 26 |[39m exports[33m.[39mwarnLackOfAudioFile [33m=[39m warnLackOfAudioFile[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat Object.warnLackOfAudioFile ([22m[2mlib/utils.js[2m:23:21)[22m[2m[22m
+[2m      [2mat forEach ([22m[2m[0m[36mspec/build/utilsSpec.js[39m[0m[2m:58:80)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mspec/build/utilsSpec.js[39m[0m[2m:58:40)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/html/[22m[1mconvertUtilSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/html/[22m[1mexportHTMLSpec.js[22m ([0m[1m[41m6.607 s[49m[22m[0m)
+  [1m● [22mConsole
+
+    [2mconsole.log[22m
+      INFO: exporting content into html...
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: copying stripped fileset...
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: exporting content into html...
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: copying stripped fileset...
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: exporting content into html...
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: copying files...
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: exporting content into html...
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: copying files...
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: exporting content into html...
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: copying stripped fileset...
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/zip/[22m[1mcliSpec.js[22m ([0m[1m[41m6.645 s[49m[22m[0m)
+  [1m● [22mConsole
+
+    [2mconsole.log[22m
+      INFO: deprecated: --no-omit-empty-js is now always enabled since output may be broken without this option.
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: Done!
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: deprecated: --no-omit-empty-js is now always enabled since output may be broken without this option.
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: Done!
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: deprecated: --no-omit-empty-js is now always enabled since output may be broken without this option.
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: Done!
+[2m[22m
+[2m      [2mat ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/zip/[22m[1mconvertSpec.js[22m ([0m[1m[41m8.65 s[49m[22m[0m)
+  [1m● [22mConsole
+
+    [2m[33mconsole.warn[39m[22m
+[33m      excluded script/ignore.js due to unreachable/unhandled.[39m
+[2m[22m
+[2m    [0m [90m 255 |[39m                         noBundledJs[33m.[39mforEach([36mfunction[39m (p) {[22m
+[2m     [90m 256 |[39m                             [36mif[39m ([33m![39mpreservingFilePathSet[33m.[39mhas(p)) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 257 |[39m                                 console[33m.[39mwarn([32m"excluded "[39m[33m.[39mconcat(p[33m,[39m [32m" due to unreachable/unhandled."[39m))[33m;[39m[22m
+[2m     [90m     |[39m                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 258 |[39m                             }[22m
+[2m     [90m 259 |[39m                         })[33m;[39m[22m
+[2m     [90m 260 |[39m                     }[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:257:41)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat call ([22m[2mlib/zip/convert.js[2m:255:37)[22m[2m[22m
+[2m      [2mat step ([22m[2mlib/zip/convert.js[2m:33:23)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      excluded script/unrefered.js due to unreachable/unhandled.[39m
+[2m[22m
+[2m    [0m [90m 255 |[39m                         noBundledJs[33m.[39mforEach([36mfunction[39m (p) {[22m
+[2m     [90m 256 |[39m                             [36mif[39m ([33m![39mpreservingFilePathSet[33m.[39mhas(p)) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 257 |[39m                                 console[33m.[39mwarn([32m"excluded "[39m[33m.[39mconcat(p[33m,[39m [32m" due to unreachable/unhandled."[39m))[33m;[39m[22m
+[2m     [90m     |[39m                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 258 |[39m                             }[22m
+[2m     [90m 259 |[39m                         })[33m;[39m[22m
+[2m     [90m 260 |[39m                     }[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:257:41)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat call ([22m[2mlib/zip/convert.js[2m:255:37)[22m[2m[22m
+[2m      [2mat step ([22m[2mlib/zip/convert.js[2m:33:23)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      excluded script/ignore.js due to unreachable/unhandled.[39m
+[2m[22m
+[2m    [0m [90m 255 |[39m                         noBundledJs[33m.[39mforEach([36mfunction[39m (p) {[22m
+[2m     [90m 256 |[39m                             [36mif[39m ([33m![39mpreservingFilePathSet[33m.[39mhas(p)) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 257 |[39m                                 console[33m.[39mwarn([32m"excluded "[39m[33m.[39mconcat(p[33m,[39m [32m" due to unreachable/unhandled."[39m))[33m;[39m[22m
+[2m     [90m     |[39m                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 258 |[39m                             }[22m
+[2m     [90m 259 |[39m                         })[33m;[39m[22m
+[2m     [90m 260 |[39m                     }[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:257:41)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat call ([22m[2mlib/zip/convert.js[2m:255:37)[22m[2m[22m
+[2m      [2mat step ([22m[2mlib/zip/convert.js[2m:33:23)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      excluded node_modules/@hoge/testmodule/lib/ModuleB.js due to unreachable/unhandled.[39m
+[2m[22m
+[2m    [0m [90m 255 |[39m                         noBundledJs[33m.[39mforEach([36mfunction[39m (p) {[22m
+[2m     [90m 256 |[39m                             [36mif[39m ([33m![39mpreservingFilePathSet[33m.[39mhas(p)) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 257 |[39m                                 console[33m.[39mwarn([32m"excluded "[39m[33m.[39mconcat(p[33m,[39m [32m" due to unreachable/unhandled."[39m))[33m;[39m[22m
+[2m     [90m     |[39m                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 258 |[39m                             }[22m
+[2m     [90m 259 |[39m                         })[33m;[39m[22m
+[2m     [90m 260 |[39m                     }[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:257:41)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat call ([22m[2mlib/zip/convert.js[2m:255:37)[22m[2m[22m
+[2m      [2mat step ([22m[2mlib/zip/convert.js[2m:33:23)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      excluded node_modules/@hoge/testmodule/lib/ModuleC.js due to unreachable/unhandled.[39m
+[2m[22m
+[2m    [0m [90m 255 |[39m                         noBundledJs[33m.[39mforEach([36mfunction[39m (p) {[22m
+[2m     [90m 256 |[39m                             [36mif[39m ([33m![39mpreservingFilePathSet[33m.[39mhas(p)) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 257 |[39m                                 console[33m.[39mwarn([32m"excluded "[39m[33m.[39mconcat(p[33m,[39m [32m" due to unreachable/unhandled."[39m))[33m;[39m[22m
+[2m     [90m     |[39m                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 258 |[39m                             }[22m
+[2m     [90m 259 |[39m                         })[33m;[39m[22m
+[2m     [90m 260 |[39m                     }[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:257:41)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat call ([22m[2mlib/zip/convert.js[2m:255:37)[22m[2m[22m
+[2m      [2mat step ([22m[2mlib/zip/convert.js[2m:33:23)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      excluded node_modules/@hoge/testmodule/lib/index.js due to unreachable/unhandled.[39m
+[2m[22m
+[2m    [0m [90m 255 |[39m                         noBundledJs[33m.[39mforEach([36mfunction[39m (p) {[22m
+[2m     [90m 256 |[39m                             [36mif[39m ([33m![39mpreservingFilePathSet[33m.[39mhas(p)) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 257 |[39m                                 console[33m.[39mwarn([32m"excluded "[39m[33m.[39mconcat(p[33m,[39m [32m" due to unreachable/unhandled."[39m))[33m;[39m[22m
+[2m     [90m     |[39m                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 258 |[39m                             }[22m
+[2m     [90m 259 |[39m                         })[33m;[39m[22m
+[2m     [90m 260 |[39m                     }[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:257:41)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat call ([22m[2mlib/zip/convert.js[2m:255:37)[22m[2m[22m
+[2m      [2mat step ([22m[2mlib/zip/convert.js[2m:33:23)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      excluded script/bar.js due to unreachable/unhandled.[39m
+[2m[22m
+[2m    [0m [90m 255 |[39m                         noBundledJs[33m.[39mforEach([36mfunction[39m (p) {[22m
+[2m     [90m 256 |[39m                             [36mif[39m ([33m![39mpreservingFilePathSet[33m.[39mhas(p)) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 257 |[39m                                 console[33m.[39mwarn([32m"excluded "[39m[33m.[39mconcat(p[33m,[39m [32m" due to unreachable/unhandled."[39m))[33m;[39m[22m
+[2m     [90m     |[39m                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 258 |[39m                             }[22m
+[2m     [90m 259 |[39m                         })[33m;[39m[22m
+[2m     [90m 260 |[39m                     }[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:257:41)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat call ([22m[2mlib/zip/convert.js[2m:255:37)[22m[2m[22m
+[2m      [2mat step ([22m[2mlib/zip/convert.js[2m:33:23)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      script/bar.js IS DUPLICATED: the file is required from both the game and an operation plugin.The current akashic export command duplicates the file. This may breaks the code, especially using the instanceof operator.Try --no-bundle option if you have a trouble.[39m
+[2m[22m
+[2m    [0m [90m 206 |[39m                                             preservingFilePathSet[33m.[39madd(realPath)[33m;[39m[22m
+[2m     [90m 207 |[39m                                             [36mif[39m (bundledFilePaths[33m.[39mindexOf(realPath) [33m!==[39m [33m-[39m[35m1[39m) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 208 |[39m                                                 console[33m.[39mwarn([32m""[39m[33m.[39mconcat(realPath[33m,[39m [32m" IS DUPLICATED: the file is required from both the game and an operation plugin."[39m)[22m
+[2m     [90m     |[39m                                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 209 |[39m                                                     [33m+[39m [32m"The current akashic export command duplicates the file. "[39m[22m
+[2m     [90m 210 |[39m                                                     [33m+[39m [32m"This may breaks the code, especially using the instanceof operator."[39m[22m
+[2m     [90m 211 |[39m                                                     [33m+[39m [32m"Try --no-bundle option if you have a trouble."[39m)[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:208:57)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat call ([22m[2mlib/zip/convert.js[2m:202:51)[22m[2m[22m
+[2m      [2mat step ([22m[2mlib/zip/convert.js[2m:33:23)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      node_modules/@hoge/testmodule/lib/ModuleA.js IS DUPLICATED: the file is required from both the game and an operation plugin.The current akashic export command duplicates the file. This may breaks the code, especially using the instanceof operator.Try --no-bundle option if you have a trouble.[39m
+[2m[22m
+[2m    [0m [90m 206 |[39m                                             preservingFilePathSet[33m.[39madd(realPath)[33m;[39m[22m
+[2m     [90m 207 |[39m                                             [36mif[39m (bundledFilePaths[33m.[39mindexOf(realPath) [33m!==[39m [33m-[39m[35m1[39m) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 208 |[39m                                                 console[33m.[39mwarn([32m""[39m[33m.[39mconcat(realPath[33m,[39m [32m" IS DUPLICATED: the file is required from both the game and an operation plugin."[39m)[22m
+[2m     [90m     |[39m                                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 209 |[39m                                                     [33m+[39m [32m"The current akashic export command duplicates the file. "[39m[22m
+[2m     [90m 210 |[39m                                                     [33m+[39m [32m"This may breaks the code, especially using the instanceof operator."[39m[22m
+[2m     [90m 211 |[39m                                                     [33m+[39m [32m"Try --no-bundle option if you have a trouble."[39m)[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:208:57)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat call ([22m[2mlib/zip/convert.js[2m:202:51)[22m[2m[22m
+[2m      [2mat step ([22m[2mlib/zip/convert.js[2m:33:23)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      node_modules/@hoge/testmodule/lib/ModuleB.js IS DUPLICATED: the file is required from both the game and an operation plugin.The current akashic export command duplicates the file. This may breaks the code, especially using the instanceof operator.Try --no-bundle option if you have a trouble.[39m
+[2m[22m
+[2m    [0m [90m 206 |[39m                                             preservingFilePathSet[33m.[39madd(realPath)[33m;[39m[22m
+[2m     [90m 207 |[39m                                             [36mif[39m (bundledFilePaths[33m.[39mindexOf(realPath) [33m!==[39m [33m-[39m[35m1[39m) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 208 |[39m                                                 console[33m.[39mwarn([32m""[39m[33m.[39mconcat(realPath[33m,[39m [32m" IS DUPLICATED: the file is required from both the game and an operation plugin."[39m)[22m
+[2m     [90m     |[39m                                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 209 |[39m                                                     [33m+[39m [32m"The current akashic export command duplicates the file. "[39m[22m
+[2m     [90m 210 |[39m                                                     [33m+[39m [32m"This may breaks the code, especially using the instanceof operator."[39m[22m
+[2m     [90m 211 |[39m                                                     [33m+[39m [32m"Try --no-bundle option if you have a trouble."[39m)[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat console.<anonymous> ([22m[2mnode_modules/jest-mock/build/index.js[2m:845:25)[22m[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:208:57)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat call ([22m[2mlib/zip/convert.js[2m:202:51)[22m[2m[22m
+[2m      [2mat step ([22m[2mlib/zip/convert.js[2m:33:23)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      unknown value 'hoge' found in nicolive.supportedModes.[39m
+[2m[22m
+[2m    [0m [90m 441 |[39m         [36mvar[39m exists [33m=[39m supportedModesValues[33m.[39mincludes(v)[33m;[39m[22m
+[2m     [90m 442 |[39m         [36mif[39m ([33m![39mexists) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 443 |[39m             console[33m.[39mwarn([32m"unknown value '"[39m[33m.[39mconcat(v[33m,[39m [32m"' found in nicolive.supportedModes."[39m))[33m;[39m[22m
+[2m     [90m     |[39m                     [31m[1m^[22m[2m[39m[22m
+[2m     [90m 444 |[39m         }[22m
+[2m     [90m 445 |[39m     })[33m;[39m[22m
+[2m     [90m 446 |[39m     [36mif[39m (preferredSessionParameters [33m&&[39m preferredSessionParameters[33m.[39mtotalTimeLimit) {[0m[22m
+[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:443:21)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat validateGameJsonForNicolive ([22m[2mlib/zip/convert.js[2m:440:20)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36mspec/build/zip/convertSpec.js[39m[0m[2m:610:78[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mspec/build/zip/convertSpec.js[39m[0m[2m:610:98)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      unknown value 'hoge' found in nicolive.supportedModes.[39m
+[2m[22m
+[2m    [0m [90m 441 |[39m         [36mvar[39m exists [33m=[39m supportedModesValues[33m.[39mincludes(v)[33m;[39m[22m
+[2m     [90m 442 |[39m         [36mif[39m ([33m![39mexists) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 443 |[39m             console[33m.[39mwarn([32m"unknown value '"[39m[33m.[39mconcat(v[33m,[39m [32m"' found in nicolive.supportedModes."[39m))[33m;[39m[22m
+[2m     [90m     |[39m                     [31m[1m^[22m[2m[39m[22m
+[2m     [90m 444 |[39m         }[22m
+[2m     [90m 445 |[39m     })[33m;[39m[22m
+[2m     [90m 446 |[39m     [36mif[39m (preferredSessionParameters [33m&&[39m preferredSessionParameters[33m.[39mtotalTimeLimit) {[0m[22m
+[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:443:21)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat validateGameJsonForNicolive ([22m[2mlib/zip/convert.js[2m:440:20)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36mspec/build/zip/convertSpec.js[39m[0m[2m:614:78[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mspec/build/zip/convertSpec.js[39m[0m[2m:614:94)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      unknown value 'hoge' found in nicolive.supportedModes.[39m
+[2m[22m
+[2m    [0m [90m 441 |[39m         [36mvar[39m exists [33m=[39m supportedModesValues[33m.[39mincludes(v)[33m;[39m[22m
+[2m     [90m 442 |[39m         [36mif[39m ([33m![39mexists) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 443 |[39m             console[33m.[39mwarn([32m"unknown value '"[39m[33m.[39mconcat(v[33m,[39m [32m"' found in nicolive.supportedModes."[39m))[33m;[39m[22m
+[2m     [90m     |[39m                     [31m[1m^[22m[2m[39m[22m
+[2m     [90m 444 |[39m         }[22m
+[2m     [90m 445 |[39m     })[33m;[39m[22m
+[2m     [90m 446 |[39m     [36mif[39m (preferredSessionParameters [33m&&[39m preferredSessionParameters[33m.[39mtotalTimeLimit) {[0m[22m
+[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:443:21)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat validateGameJsonForNicolive ([22m[2mlib/zip/convert.js[2m:440:20)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36mspec/build/zip/convertSpec.js[39m[0m[2m:616:78[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mspec/build/zip/convertSpec.js[39m[0m[2m:616:94)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      unknown value 'hoge' found in nicolive.supportedModes.[39m
+[2m[22m
+[2m    [0m [90m 441 |[39m         [36mvar[39m exists [33m=[39m supportedModesValues[33m.[39mincludes(v)[33m;[39m[22m
+[2m     [90m 442 |[39m         [36mif[39m ([33m![39mexists) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 443 |[39m             console[33m.[39mwarn([32m"unknown value '"[39m[33m.[39mconcat(v[33m,[39m [32m"' found in nicolive.supportedModes."[39m))[33m;[39m[22m
+[2m     [90m     |[39m                     [31m[1m^[22m[2m[39m[22m
+[2m     [90m 444 |[39m         }[22m
+[2m     [90m 445 |[39m     })[33m;[39m[22m
+[2m     [90m 446 |[39m     [36mif[39m (preferredSessionParameters [33m&&[39m preferredSessionParameters[33m.[39mtotalTimeLimit) {[0m[22m
+[2m[22m
+[2m      [2mat forEach ([22m[2mlib/zip/convert.js[2m:443:21)[22m[2m[22m
+[2m          at Array.forEach (<anonymous>)[22m
+[2m      [2mat validateGameJsonForNicolive ([22m[2mlib/zip/convert.js[2m:440:20)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36mspec/build/zip/convertSpec.js[39m[0m[2m:618:78[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mspec/build/zip/convertSpec.js[39m[0m[2m:618:94)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/zip/[22m[1mtransformPackImagesSpec.js[22m ([0m[1m[41m25.488 s[49m[22m[0m)
+[33mA worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --detectOpenHandles to find leaks.[39m
+
+[1mTest Suites: [22m[1m[32m11 passed[39m[22m, 11 total
+[1mTests:       [22m[1m[32m81 passed[39m[22m, 81 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m28.631 s[39m[22m
+[2mRan all test suites[22m[2m.[22m
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-export/.npmrc 
+
+> @akashic/akashic-cli-export@1.9.2 lint
+> npm run lint:src && npm run lint:spec && npm run lint:js
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-export/.npmrc 
+
+> @akashic/akashic-cli-export@1.9.2 lint:src
+> eslint "src/**/*.ts" --fix
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-export/.npmrc 
+
+> @akashic/akashic-cli-export@1.9.2 lint:spec
+> eslint "./spec/src/**/*.ts" --fix
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-export/.npmrc 
+
+> @akashic/akashic-cli-export@1.9.2 lint:js
+> eslint "./src/template/**/*.js" --fix
+

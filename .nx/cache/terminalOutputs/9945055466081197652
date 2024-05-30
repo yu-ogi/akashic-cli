@@ -1,0 +1,46 @@
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-serve/.npmrc 
+
+> @akashic/akashic-cli-serve@1.16.2 test
+> jest && npm run lint
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/server/[22m[1mSocketIOAMFlowManagerSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/server/[22m[1mGameConfigsSpec.js[22m ([0m[1m[41m7.954 s[49m[22m[0m)
+  [1m● [22mConsole
+
+    [2mconsole.log[22m
+      INFO: Removed the declaration for 'text/a.txt'. The corresponding files to the path are not found.
+[2m[22m
+[2m      [2mat ConsoleLogger._log [as print] ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: Added the declaration for 'c.txt' (text/c.txt)
+[2m[22m
+[2m      [2mat ConsoleLogger._log [as print] ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: Done!
+[2m[22m
+[2m      [2mat ConsoleLogger._log [as print] ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+
+[1mTest Suites: [22m[1m[33m1 skipped[39m[22m, [1m[32m2 passed[39m[22m, 2 of 3 total
+[1mTests:       [22m[1m[33m9 skipped[39m[22m, [1m[32m5 passed[39m[22m, 14 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        11.585 s, estimated 17 s
+[2mRan all test suites[22m[2m.[22m
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-serve/.npmrc 
+
+> @akashic/akashic-cli-serve@1.16.2 lint
+> npm run lint:client && npm run lint:server
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-serve/.npmrc 
+
+> @akashic/akashic-cli-serve@1.16.2 lint:client
+> eslint -c ./src/client/.eslintrc.js "src/client/**/*.ts" "src/common/**/*.ts" "src/client/**/*.tsx" --fix
+
+Warning: React version not specified in eslint-plugin-react settings. See https://github.com/jsx-eslint/eslint-plugin-react#configuration .
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-serve/.npmrc 
+
+> @akashic/akashic-cli-serve@1.16.2 lint:server
+> eslint "src/server/**/*.ts" --fix
+

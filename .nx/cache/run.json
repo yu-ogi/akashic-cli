@@ -1,0 +1,197 @@
+{
+  "run": {
+    "command": "nx run-many -t test",
+    "startTime": "2024-05-29T07:27:14.438Z",
+    "endTime": "2024-05-29T07:29:28.215Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@akashic/akashic-cli-commons:build",
+      "target": "build",
+      "projectName": "@akashic/akashic-cli-commons",
+      "hash": "3894751623592201928",
+      "startTime": "2024-05-29T07:27:14.453Z",
+      "endTime": "2024-05-29T07:27:17.404Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-extra:build",
+      "target": "build",
+      "projectName": "@akashic/akashic-cli-extra",
+      "hash": "17013753565917116027",
+      "startTime": "2024-05-29T07:27:17.410Z",
+      "endTime": "2024-05-29T07:27:20.982Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-scan:build",
+      "target": "build",
+      "projectName": "@akashic/akashic-cli-scan",
+      "hash": "8137723012079002339",
+      "startTime": "2024-05-29T07:27:20.986Z",
+      "endTime": "2024-05-29T07:27:26.034Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-sandbox:build",
+      "target": "build",
+      "projectName": "@akashic/akashic-cli-sandbox",
+      "hash": "4218786442224790384",
+      "startTime": "2024-05-29T07:27:14.453Z",
+      "endTime": "2024-05-29T07:27:28.378Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-lib-manage:build",
+      "target": "build",
+      "projectName": "@akashic/akashic-cli-lib-manage",
+      "hash": "8344943362986713830",
+      "startTime": "2024-05-29T07:27:26.037Z",
+      "endTime": "2024-05-29T07:27:31.912Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-init:build",
+      "target": "build",
+      "projectName": "@akashic/akashic-cli-init",
+      "hash": "122721091826894254",
+      "startTime": "2024-05-29T07:27:31.913Z",
+      "endTime": "2024-05-29T07:27:38.647Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-commons:test",
+      "target": "test",
+      "projectName": "@akashic/akashic-cli-commons",
+      "hash": "16929384259247076734",
+      "startTime": "2024-05-29T07:27:14.453Z",
+      "endTime": "2024-05-29T07:27:43.979Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-extra:test",
+      "target": "test",
+      "projectName": "@akashic/akashic-cli-extra",
+      "hash": "11537860795525257108",
+      "startTime": "2024-05-29T07:27:43.980Z",
+      "endTime": "2024-05-29T07:28:02.808Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-export:build",
+      "target": "build",
+      "projectName": "@akashic/akashic-cli-export",
+      "hash": "17552752737626578675",
+      "startTime": "2024-05-29T07:27:28.379Z",
+      "endTime": "2024-05-29T07:28:05.862Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-serve:build",
+      "target": "build",
+      "projectName": "@akashic/akashic-cli-serve",
+      "hash": "1382181674969094484",
+      "startTime": "2024-05-29T07:27:38.648Z",
+      "endTime": "2024-05-29T07:28:25.251Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-scan:test",
+      "target": "test",
+      "projectName": "@akashic/akashic-cli-scan",
+      "hash": "6082842450488987406",
+      "startTime": "2024-05-29T07:28:02.809Z",
+      "endTime": "2024-05-29T07:28:30.277Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-sandbox:test",
+      "target": "test",
+      "projectName": "@akashic/akashic-cli-sandbox",
+      "hash": "6232779526378267271",
+      "startTime": "2024-05-29T07:28:05.863Z",
+      "endTime": "2024-05-29T07:28:31.726Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-lib-manage:test",
+      "target": "test",
+      "projectName": "@akashic/akashic-cli-lib-manage",
+      "hash": "13993877432892371502",
+      "startTime": "2024-05-29T07:28:25.253Z",
+      "endTime": "2024-05-29T07:28:55.372Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-init:test",
+      "target": "test",
+      "projectName": "@akashic/akashic-cli-init",
+      "hash": "632486528998916908",
+      "startTime": "2024-05-29T07:28:31.727Z",
+      "endTime": "2024-05-29T07:29:02.234Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli:test",
+      "target": "test",
+      "projectName": "@akashic/akashic-cli",
+      "hash": "13716627423549819745",
+      "startTime": "2024-05-29T07:29:02.235Z",
+      "endTime": "2024-05-29T07:29:06.573Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-export:test",
+      "target": "test",
+      "projectName": "@akashic/akashic-cli-export",
+      "hash": "8051373857307058178",
+      "startTime": "2024-05-29T07:28:30.278Z",
+      "endTime": "2024-05-29T07:29:27.415Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@akashic/akashic-cli-serve:test",
+      "target": "test",
+      "projectName": "@akashic/akashic-cli-serve",
+      "hash": "9945055466081197652",
+      "startTime": "2024-05-29T07:28:55.373Z",
+      "endTime": "2024-05-29T07:29:28.215Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

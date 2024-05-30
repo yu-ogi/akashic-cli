@@ -1,0 +1,40 @@
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 build
+> npm run copy:common && npm run copy:engine-files && npm run build:client && npm run build:server
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 copy:common
+> cpx "./engine-src/common/js/**/*.js" ./js && cpx "./engine-src/common/external/**/*.js" ./js
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 copy:engine-files
+> npm run copy:v1 && npm run copy:v2 && npm run copy:v3
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 copy:v1
+> cpx "./engine-src/v1/js/**/*.js" ./js/v1
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 copy:v2
+> cpx "./engine-src/v2/js/**/*.js" ./js/v2
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 copy:v3
+> cpx "./engine-src/v3/js/**/*.js" ./js/v3
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 build:client
+> tsc -p src/client
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 build:server
+> tsc -p src/server
+

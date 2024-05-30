@@ -1,0 +1,10 @@
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli/.npmrc 
+
+> @akashic/akashic-cli@2.17.2 test
+> npm run lint
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli/.npmrc 
+
+> @akashic/akashic-cli@2.17.2 lint
+> eslint "src/**/*.ts" --fix
+

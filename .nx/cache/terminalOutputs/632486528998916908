@@ -1,0 +1,35 @@
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-init/.npmrc 
+
+> @akashic/akashic-cli-init@1.15.1 test
+> npm run test:jest && npm run lint
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-init/.npmrc 
+
+> @akashic/akashic-cli-init@1.15.1 test:jest
+> jest
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/[22m[1mTemplateConfigSpec.ts[22m ([0m[1m[41m9.213 s[49m[22m[0m)
+  [1m● [22mConsole
+
+    [2mconsole.log[22m
+      WARN: Both "files" and "exclude" are found in template.json, "exclude" is ignored.
+[2m[22m
+[2m      [2mat ConsoleLogger.Object.<anonymous>.ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/[22m[1mcloneTemplateSpec.ts[22m ([0m[1m[41m10.168 s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/[22m[1mBasicParametersSpec.ts[22m ([0m[1m[41m10.292 s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/[22m[1mInitParameterObjectSpec.ts[22m ([0m[1m[41m11.607 s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/[22m[1mTemplateMetadataSpec.ts[22m ([0m[1m[41m11.855 s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/[22m[1minitSpec.ts[22m ([0m[1m[41m12.346 s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/[22m[1mlistTemplatesSpec.ts[22m ([0m[1m[41m12.701 s[49m[22m[0m)
+
+[1mTest Suites: [22m[1m[32m7 passed[39m[22m, 7 total
+[1mTests:       [22m[1m[33m1 skipped[39m[22m, [1m[32m28 passed[39m[22m, 29 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        15.239 s, estimated 21 s
+[2mRan all test suites[22m[2m.[22m
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-init/.npmrc 
+
+> @akashic/akashic-cli-init@1.15.1 lint
+> eslint "src/**/*.ts" --fix
+

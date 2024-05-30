@@ -1,0 +1,31 @@
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-lib-manage/.npmrc 
+
+> @akashic/akashic-cli-lib-manage@1.9.1 test
+> npm run test:compile && npm run test:jest && npm run lint
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-lib-manage/.npmrc 
+
+> @akashic/akashic-cli-lib-manage@1.9.1 test:compile
+> tsc -p ./spec
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-lib-manage/.npmrc 
+
+> @akashic/akashic-cli-lib-manage@1.9.1 test:jest
+> jest
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/uninstall/[22m[1mConfigurationSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/update/[22m[1mupdateSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/install/[22m[1mConfigurationSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/uninstall/[22m[1muninstallSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/install/[22m[1minstallSpec.js[22m
+
+[1mTest Suites: [22m[1m[32m5 passed[39m[22m, 5 total
+[1mTests:       [22m[1m[32m26 passed[39m[22m, 26 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m8.19 s[39m[22m
+[2mRan all test suites[22m[2m.[22m
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-lib-manage/.npmrc 
+
+> @akashic/akashic-cli-lib-manage@1.9.1 lint
+> eslint "src/**/*.ts" --fix
+

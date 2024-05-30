@@ -1,0 +1,5 @@
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-lib-manage/.npmrc 
+
+> @akashic/akashic-cli-lib-manage@1.9.1 build
+> tsc -p ./
+

@@ -1,0 +1,64 @@
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-scan/.npmrc 
+
+> @akashic/akashic-cli-scan@0.17.1 test
+> npm run test:jest && npm run lint
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-scan/.npmrc 
+
+> @akashic/akashic-cli-scan@0.17.1 test:jest
+> jest
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/src/[22m[1mAssetModuleSpec.ts[22m ([0m[1m[41m6.442 s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/src/[22m[1mgetAudioDurationSpec.ts[22m ([0m[1m[41m6.592 s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/src/[22m[1mscanUtilsSpec.ts[22m ([0m[1m[41m7.217 s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/src/[22m[1mscanNodeModulesSpec.ts[22m ([0m[1m[41m8.055 s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/src/[22m[1mscanAssetSpec.ts[22m ([0m[1m[41m8.249 s[49m[22m[0m)
+  [1m● [22mConsole
+
+    [2m[33mconsole.warn[39m[22m
+[33m      Failed to get duration of some/se.ogg[39m
+[2m[22m
+[2m    [0m [90m 197 |[39m                     duration [33m=[39m _b[33m.[39msent()[33m;[39m[22m
+[2m     [90m 198 |[39m                     [36mif[39m (duration [33m==[39m [36mnull[39m)[22m
+[2m    [31m[1m>[22m[2m[39m[90m 199 |[39m                         console[33m.[39mwarn([32m"Failed to get duration of "[39m[33m.[39mconcat(relativeFilePath))[33m;[39m[22m
+[2m     [90m     |[39m                                 [31m[1m^[22m[2m[39m[22m
+[2m     [90m 200 |[39m                     unixPath [33m=[39m ([35m0[39m[33m,[39m [33mUtil_1[39m[33m.[39mmakeUnixPath)(nonExtRelativeFilePath)[33m;[39m[22m
+[2m     [90m 201 |[39m                     durationInfos[33m.[39mpush({[22m
+[2m     [90m 202 |[39m                         basename[33m:[39m basename[33m,[39m[0m[22m
+[2m[22m
+[2m      [2mat [22m[2mlib/scanUtils.js[2m:199:33[22m[2m[22m
+[2m      [2mat step ([22m[2mlib/scanUtils.js[2m:33:23)[22m[2m[22m
+[2m      [2mat Object.next ([22m[2mlib/scanUtils.js[2m:14:53)[22m[2m[22m
+[2m      [2mat fulfilled ([22m[2mlib/scanUtils.js[2m:5:58)[22m[2m[22m
+
+    [2mconsole.log[22m
+      WARN: Detected different durations between files prefixed with audio/dummy.
+[2m[22m
+[2m      [2mat ConsoleLogger.Object.<anonymous>.ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: Detected change of the audio duration for audio/dummy from 1 to 1250
+[2m[22m
+[2m      [2mat ConsoleLogger.Object.<anonymous>.ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: Detected change of the audio extensions for audio/dummy from undefined to [".aac",".ogg"]
+[2m[22m
+[2m      [2mat ConsoleLogger.Object.<anonymous>.ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+    [2mconsole.log[22m
+      INFO: Done!
+[2m[22m
+[2m      [2mat ConsoleLogger.Object.<anonymous>.ConsoleLogger.print ([22m[2m../akashic-cli-commons/lib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+
+[1mTest Suites: [22m[1m[32m5 passed[39m[22m, 5 total
+[1mTests:       [22m[1m[32m56 passed[39m[22m, 56 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m18.381 s[39m[22m
+[2mRan all test suites[22m[2m.[22m
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-scan/.npmrc 
+
+> @akashic/akashic-cli-scan@0.17.1 lint
+> eslint "src/**/*.ts" --fix
+

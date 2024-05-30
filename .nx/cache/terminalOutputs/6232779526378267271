@@ -1,0 +1,33 @@
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 test
+> npm run test:jasmine && npm run lint
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 test:jasmine
+> jasmine "./spec/**/*[sS]pec.js"
+
+Randomized with seed 40913
+Started
+............
+
+
+12 specs, 0 failures
+Finished in 0.747 seconds
+Randomized with seed 40913 (jasmine --random=true --seed=40913)
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 lint
+> npm run lint:client && npm run lint:server
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 lint:client
+> eslint "src/client/*.ts" "src/client/**/*.ts" --fix
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-sandbox/.npmrc 
+
+> @akashic/akashic-cli-sandbox@1.1.1 lint:server
+> eslint "src/server/*.ts" "src/server/**/*.ts" --fix
+

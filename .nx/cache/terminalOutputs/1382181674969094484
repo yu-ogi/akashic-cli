@@ -1,0 +1,31 @@
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-serve/.npmrc 
+
+> @akashic/akashic-cli-serve@1.16.2 build
+> npm run build:client && npm run build:server && shx cp ./config/engineFilesVersion.json ./lib/server
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-serve/.npmrc 
+
+> @akashic/akashic-cli-serve@1.16.2 build:client
+> webpack --config ./src/client/webpack.config.js && tsc -p ./src/client/tsconfig.module.json
+
+asset [1m[32mindex.js[39m[22m 2.11 MiB [1m[33m[compared for emit][39m[22m (name: main) 1 related asset
+runtime modules 972 bytes 5 modules
+modules by path [1m./src/[39m[22m 565 KiB
+  modules by path [1m./src/client/view/[39m[22m 298 KiB 101 modules
+  modules by path [1m./src/client/store/*.ts[39m[22m 119 KiB 14 modules
+  modules by path [1m./src/client/akashic/[39m[22m 47 KiB 10 modules
+  modules by path [1m./src/client/api/*.ts[39m[22m 24.4 KiB 6 modules
+  modules by path [1m./src/client/operator/*.ts[39m[22m 54.7 KiB 5 modules
+  modules by path [1m./src/common/*.ts[39m[22m 6.42 KiB 4 modules
+  modules by path [1m./src/client/common/*.ts[39m[22m 8 KiB 4 modules
+  + 2 modules
+modules by path [1m../[39m[22m 1.4 MiB 79 modules
+[1mexternal "tty"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[1mexternal "util"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[1mexternal "os"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.79.0 compiled [1m[32msuccessfully[39m[22m in 19124 ms
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-serve/.npmrc 
+
+> @akashic/akashic-cli-serve@1.16.2 build:server
+> tsc -p ./src/server
+

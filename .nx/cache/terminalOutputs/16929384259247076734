@@ -1,0 +1,52 @@
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-commons/.npmrc 
+
+> @akashic/akashic-cli-commons@0.15.1 test
+> npm run test:ts && npm run lint
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-commons/.npmrc 
+
+> @akashic/akashic-cli-commons@0.15.1 test:ts
+> npm run test:ts:compile && npm run test:ts:jest
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-commons/.npmrc 
+
+> @akashic/akashic-cli-commons@0.15.1 test:ts:compile
+> tsc -p ./spec
+
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-commons/.npmrc 
+
+> @akashic/akashic-cli-commons@0.15.1 test:ts:jest
+> jest --runInBand
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/[22m[1mRenamerSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/[22m[1mNodeModulesSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/[22m[1mFileSystemSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/[22m[1mUtilSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/CliConfig/[22m[1mCliConfigurationFileSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/[22m[1masHumanReadableSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/[22m[1mPromisedNpmSpec.js[22m
+  [1m● [22mConsole
+
+    [2mconsole.log[22m
+      INFO: Listing dependencies ...
+[2m[22m
+[2m      [2mat ConsoleLogger._log [as print] ([22m[2mlib/ConsoleLogger.js[2m:18:14)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/[22m[1mConfigurationFileSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/[22m[1mStringStreamSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/[22m[1mConfigurationSpec.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mspec/build/[22m[1mConsoleLoggerSpec.js[22m
+
+[1mTest Suites: [22m[1m[32m11 passed[39m[22m, 11 total
+[1mTests:       [22m[1m[32m54 passed[39m[22m, 54 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        4.948 s, estimated 5 s
+[2mRan all test suites[22m[2m.[22m
+[33m[1mJest did not exit one second after the test run has completed.[22m[39m
+[33m[1m[22m[39m
+[33m[1m'[22m[39m[33mThis usually means that there are asynchronous operations that weren't stopped in your tests. Consider running Jest with `--detectOpenHandles` to troubleshoot this issue.[39m
+npm WARN ignoring workspace config at /Users/yusuke_ogiwara/workspace/public/yu-ogi/akashic-cli/packages/akashic-cli-commons/.npmrc 
+
+> @akashic/akashic-cli-commons@0.15.1 lint
+> eslint "src/**/*.ts" --fix
+
