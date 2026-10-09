@@ -26,10 +26,10 @@
   },
   "devDependencies": {
     "@akashic/remark-preset-lint": "^0.1.1",
-    "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.5",
-    "nx": "^19.1.0",
-    "remark-cli": "^10.0.1",
+    "@changesets/changelog-github": "^1.0.0",
+    "@changesets/cli": "^3.0.0",
+    "nx": "^23.0.0",
+    "remark-cli": "^12.0.0",
     "shelljs": "^0.8.5"
   }
 }
